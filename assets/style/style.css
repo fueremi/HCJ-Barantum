@@ -226,6 +226,67 @@ body {
     border-bottom: #1A83C7 solid 5px;
 }
 
+.content-activity .activity-wrapper .activity-main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.content-activity .activity-wrapper .activity-main .activity-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    margin-bottom: 10px;
+}
+
+.content-activity .activity-wrapper .activity-main .activity-input .input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-addons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    background-color: #F5F5F5;
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+}
+
+.input-addons input, .input-addons textarea {
+    flex: 3;
+    border: none;
+    background-color: #F5F5F5;
+    height: 100%;
+}
+
+.input-addons input:target {
+    border: none;
+}
+
+#subject {
+    height: 100%;
+}
+
+.upload-addons {
+    border: dashed 1px #555555 ;
+    display: flex;
+    flex-direction: column; 
+    padding: 2rem 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-addons img {
+    width: 25px;
+}
+
 .content-timeline {
     grid-area: 5 / 2 / 7 / 4;
     background: #FFFFFF;
